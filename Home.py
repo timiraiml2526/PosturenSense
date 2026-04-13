@@ -99,7 +99,7 @@ if st.session_state.logged_in:
         unsafe_allow_html=True,
     )
     if st.button("▶ Open Monitor →"):
-        st.switch_page("pages/1_Monitor.py")
+        st.navigation("pages/1_Monitor.py")
     st.markdown('</div>', unsafe_allow_html=True)
     st.stop()
 
