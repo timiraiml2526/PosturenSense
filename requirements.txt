@@ -1,9 +1,10 @@
-streamlit>=1.28.0
+streamlit==1.32.0
 streamlit-webrtc==0.47.6
-tornado>=6.1,<7.0
-aiortc>=1.6.0
-av>=10.0.0
-opencv-python-headless
+aiortc==1.6.0
+av==10.0.0
+tornado==6.4
+opencv-python-headless==4.8.1.78
+
+
 mediapipe==0.10.33
 numpy
-av
